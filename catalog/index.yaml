@@ -354,6 +354,33 @@ entries:
       - neteye-operator.0.1.5-nightly-8a3bb3724aee
       - neteye-operator.0.1.6-nightly-ae8355b4bc5f
       - neteye-operator.0.1.7-nightly-9e6c81534da4
+  - name: neteye-operator.0.1.14-nightly-0fc22642d743
+    replaces: neteye-operator.0.1.14-nightly-3412ed1032d4
+    skips:
+      - neteye-operator.0.1.1-alpha.3-nightly-253c2275127d
+      - neteye-operator.0.1.1-alpha.3-nightly-bae6d9850a90
+      - neteye-operator.0.1.1-alpha.3-nightly-d762c22910bc
+      - neteye-operator.0.1.1-alpha.3-nightly-6cda3560f4f1
+      - neteye-operator.0.1.1-alpha.3-nightly-f1be69cf921b
+      - neteye-operator.0.1.1-alpha.3-nightly-21214508f442
+      - neteye-operator.0.1.1-alpha.3-nightly-7b0df891fbe0
+      - neteye-operator.0.1.1-alpha.3-nightly-6914a194f81e
+      - neteye-operator.0.1.1-alpha.3-nightly-542494f5a2bd
+      - neteye-operator.0.1.1-alpha.3-nightly-70a64e0554f3
+      - neteye-operator.0.1.1-alpha.3-nightly-0646108a6206
+      - neteye-operator.0.1.1-alpha.3-nightly-bd64ec568693
+      - neteye-operator.0.1.1-alpha.3-nightly-ce615720306a
+      - neteye-operator.0.1.1-alpha.3-nightly-ed8912bdbc42
+      - neteye-operator.0.1.1-alpha.3-nightly-d170043295a3
+      - neteye-operator.0.1.1-alpha.3-nightly-baf21bf46249
+      - neteye-operator.0.1.1-alpha.3-nightly-9e6fd98e13b9
+      - neteye-operator.0.1.1-alpha.3-nightly-2d068679d3ff
+      - neteye-operator.0.1.1-alpha.3-nightly-c7ade9493a2a
+      - neteye-operator.0.1.1-nightly-48c82747a20e
+      - neteye-operator.0.1.5-nightly-8a3bb3724aee
+      - neteye-operator.0.1.6-nightly-ae8355b4bc5f
+      - neteye-operator.0.1.7-nightly-9e6c81534da4
+      - neteye-operator.0.1.13-nightly-c3b5a3d17dcb
 ---
 schema: olm.bundle
 name: neteye-operator.0.1.1-alpha.3-nightly-253c2275127d
@@ -886,3 +913,18 @@ properties:
     value:
       packageName: neteye-operator
       version: 0.1.14-nightly-3412ed1032d4
+---
+schema: olm.bundle
+name: neteye-operator.0.1.14-nightly-0fc22642d743
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.14-nightly-0fc22642d743
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.14-nightly-0fc22642d743
