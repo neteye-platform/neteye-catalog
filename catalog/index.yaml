@@ -928,3 +928,24 @@ properties:
     value:
       packageName: neteye-operator
       version: 0.1.14-nightly-0fc22642d743
+---
+schema: olm.channel
+package: neteye-operator
+name: 4.51-nightly
+entries:
+  - name: neteye-operator.0.1.14-nightly-7b81e948aadc
+---
+schema: olm.bundle
+name: neteye-operator.0.1.14-nightly-7b81e948aadc
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.14-nightly-7b81e948aadc
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.14-nightly-7b81e948aadc
