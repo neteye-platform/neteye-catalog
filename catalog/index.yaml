@@ -957,6 +957,8 @@ package: neteye-operator
 name: 4.51-stable
 entries:
   - name: neteye-operator.0.2.0
+  - name: neteye-operator.0.2.1
+    replaces: neteye-operator.0.2.0
 ---
 schema: olm.bundle
 name: neteye-operator.0.2.0
@@ -987,3 +989,18 @@ properties:
     value:
       packageName: neteye-operator
       version: 0.2.0-nightly-a2ebe952eab9
+---
+schema: olm.bundle
+name: neteye-operator.0.2.1
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle@sha256:92771e4c4d302daf8f06e533d20627c813cab5837d89505f653b6c902b0e182f
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.2.1
