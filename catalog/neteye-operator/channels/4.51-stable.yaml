@@ -1,0 +1,11 @@
+schema: olm.channel
+package: neteye-operator
+name: 4.51-stable
+entries:
+  - name: neteye-operator.0.2.0
+  - name: neteye-operator.0.2.1
+    replaces: neteye-operator.0.2.0
+  - name: neteye-operator.0.2.2
+    replaces: neteye-operator.0.2.1
+  - name: neteye-operator.0.2.3
+    replaces: neteye-operator.0.2.2

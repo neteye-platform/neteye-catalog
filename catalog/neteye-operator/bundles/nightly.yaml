@@ -1,0 +1,419 @@
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-0646108a6206
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-0646108a6206
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-0646108a6206
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-21214508f442
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-21214508f442
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-21214508f442
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-253c2275127d
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-253c2275127d
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-253c2275127d
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-2d068679d3ff
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-2d068679d3ff
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-2d068679d3ff
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-542494f5a2bd
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-542494f5a2bd
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-542494f5a2bd
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-6914a194f81e
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-6914a194f81e
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-6914a194f81e
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-6cda3560f4f1
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-6cda3560f4f1
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-6cda3560f4f1
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-70a64e0554f3
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-70a64e0554f3
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-70a64e0554f3
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-7b0df891fbe0
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-7b0df891fbe0
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-7b0df891fbe0
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-9e6fd98e13b9
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-9e6fd98e13b9
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-9e6fd98e13b9
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-bae6d9850a90
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-bae6d9850a90
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-bae6d9850a90
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-baf21bf46249
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-baf21bf46249
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-baf21bf46249
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-bd64ec568693
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-bd64ec568693
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-bd64ec568693
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-c7ade9493a2a
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-c7ade9493a2a
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-c7ade9493a2a
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-ce615720306a
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-ce615720306a
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-ce615720306a
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-d170043295a3
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-d170043295a3
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-d170043295a3
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-d762c22910bc
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-d762c22910bc
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-d762c22910bc
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-ed8912bdbc42
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-ed8912bdbc42
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-ed8912bdbc42
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-alpha.3-nightly-f1be69cf921b
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-alpha.3-nightly-f1be69cf921b
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-alpha.3-nightly-f1be69cf921b
+---
+schema: olm.bundle
+name: neteye-operator.0.1.1-nightly-48c82747a20e
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.1-nightly-48c82747a20e
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.1-nightly-48c82747a20e
+---
+schema: olm.bundle
+name: neteye-operator.0.1.13-nightly-c3b5a3d17dcb
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.13-nightly-c3b5a3d17dcb
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.13-nightly-c3b5a3d17dcb
+---
+schema: olm.bundle
+name: neteye-operator.0.1.14-nightly-0fc22642d743
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.14-nightly-0fc22642d743
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.14-nightly-0fc22642d743
+---
+schema: olm.bundle
+name: neteye-operator.0.1.14-nightly-3412ed1032d4
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.14-nightly-3412ed1032d4
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.14-nightly-3412ed1032d4
+---
+schema: olm.bundle
+name: neteye-operator.0.1.14-nightly-7b81e948aadc
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.14-nightly-7b81e948aadc
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.14-nightly-7b81e948aadc
+---
+schema: olm.bundle
+name: neteye-operator.0.1.5-nightly-8a3bb3724aee
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.5-nightly-8a3bb3724aee
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.5-nightly-8a3bb3724aee
+---
+schema: olm.bundle
+name: neteye-operator.0.1.6-nightly-ae8355b4bc5f
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.6-nightly-ae8355b4bc5f
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.6-nightly-ae8355b4bc5f
+---
+schema: olm.bundle
+name: neteye-operator.0.1.7-nightly-9e6c81534da4
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.1.7-nightly-9e6c81534da4
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.1.7-nightly-9e6c81534da4
+---
+schema: olm.bundle
+name: neteye-operator.0.2.0-nightly-a2ebe952eab9
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.2.0-nightly-a2ebe952eab9
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.2.0-nightly-a2ebe952eab9
