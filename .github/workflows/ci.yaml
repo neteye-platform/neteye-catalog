@@ -19,7 +19,7 @@ jobs:
     permissions:
       contents: read
     env:
-      CATALOG_IMAGE: neteye-operator-catalog:test
+      CATALOG_IMAGE: neteye-catalog:test
       CATALOG_PACKAGE: neteye-operator
       # renovate: datasource=docker depName=fullstorydev/grpcurl
       GRPCURL_IMAGE: "fullstorydev/grpcurl:v1.9.3@sha256:085e183ca334eb4e81ca81ee12cbb2b2737505d1d77f5e33dabc5d066593d998"
@@ -134,7 +134,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@dc802804100637a589fabce1cb79ff13a1411302 # v6.2.0
         with:
-          images: ghcr.io/${{ github.repository_owner }}/neteye-operator-catalog
+          images: ghcr.io/${{ github.repository_owner }}/neteye-catalog
           tags: |
             type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
             type=ref,event=pr

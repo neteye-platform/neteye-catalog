@@ -10,7 +10,7 @@ available in the registry.
 Bundles are immutable: an operator release publishes a matching bundle image,
 such as `neteye-operator-bundle:0.1.0`, and the catalog references that exact
 version. The catalog image is mutable on the `main` branch: each push publishes
-`neteye-operator-catalog:latest`, which the `ClusterCatalog` polls for updates.
+`neteye-catalog:latest`, which the `ClusterCatalog` polls for updates.
 
 The `stable` channel is defined in `catalog/index.yaml`. Add each released
 bundle to that channel and maintain the bundle CSV upgrade graph before merging
