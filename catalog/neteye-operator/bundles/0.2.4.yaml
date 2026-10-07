@@ -1,0 +1,14 @@
+schema: olm.bundle
+name: neteye-operator.0.2.4
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle@sha256:a54343a3452638319fcb368085bd275c49e41c62015a1d39933e908057eeae26
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.2.4
