@@ -9,3 +9,5 @@ entries:
     replaces: neteye-operator.0.2.1
   - name: neteye-operator.0.2.3
     replaces: neteye-operator.0.2.2
+  - name: neteye-operator.0.2.4
+    replaces: neteye-operator.0.2.3
