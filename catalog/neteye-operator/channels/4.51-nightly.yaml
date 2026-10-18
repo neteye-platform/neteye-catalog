@@ -12,7 +12,8 @@ entries:
   - name: neteye-operator.0.2.4-nightly-f4b885dd4437
   - name: neteye-operator.0.2.6-nightly-581fd088b23f
   - name: neteye-operator.0.2.6-nightly-200e97b59277
-    replaces: neteye-operator.0.2.6-nightly-581fd088b23f
+  - name: neteye-operator.0.2.6-nightly-d7751b718880
+    replaces: neteye-operator.0.2.6-nightly-200e97b59277
     skips:
       - neteye-operator.0.1.14-nightly-7b81e948aadc
       - neteye-operator.0.2.0-nightly-a2ebe952eab9
@@ -22,3 +23,4 @@ entries:
       - neteye-operator.0.2.4-nightly-298137b19d93
       - neteye-operator.0.2.4-nightly-26ca1e123dbf
       - neteye-operator.0.2.4-nightly-f4b885dd4437
+      - neteye-operator.0.2.6-nightly-581fd088b23f
