@@ -17,3 +17,5 @@ entries:
     replaces: neteye-operator.0.2.5
   - name: neteye-operator.0.2.7
     replaces: neteye-operator.0.2.6
+  - name: neteye-operator.0.2.8
+    replaces: neteye-operator.0.2.7
