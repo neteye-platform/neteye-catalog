@@ -45,8 +45,11 @@ channel kinds are written by the operator repository's release automation; add
 each released bundle to its channel and keep the upgrade graph consistent
 before merging to `main`.
 
-Stable channels carry a linear `replaces` chain, so upgrades step through every
-release. Nightly channels are rolling: every entry is a plain name and only the
+Stable channels allow jumping from any version to a later one: each new head
+`replaces` the previous head and `skips` every other earlier entry, so
+installations never have to step through the intermediate releases. Existing
+entries keep their own edges, which keeps pinning an intermediate release
+possible. Nightly channels are rolling: every entry is a plain name and only the
 channel head carries `replaces` plus a `skips` list of the remaining
 predecessors, so an installation can jump to the newest nightly from any older
 one. Writing the skips on the head alone keeps the channel linear in size — the
