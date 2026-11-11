@@ -7,15 +7,50 @@ entries:
     replaces: neteye-operator.0.1.6
   - name: neteye-operator.0.1.8
     replaces: neteye-operator.0.1.7
+    skips:
+      - neteye-operator.0.1.6
   - name: neteye-operator.0.1.9
     replaces: neteye-operator.0.1.8
+    skips:
+      - neteye-operator.0.1.6
+      - neteye-operator.0.1.7
   - name: neteye-operator.0.1.10
     replaces: neteye-operator.0.1.9
+    skips:
+      - neteye-operator.0.1.6
+      - neteye-operator.0.1.7
+      - neteye-operator.0.1.8
   - name: neteye-operator.0.1.11
     replaces: neteye-operator.0.1.10
+    skips:
+      - neteye-operator.0.1.6
+      - neteye-operator.0.1.7
+      - neteye-operator.0.1.8
+      - neteye-operator.0.1.9
   - name: neteye-operator.0.1.12
     replaces: neteye-operator.0.1.11
+    skips:
+      - neteye-operator.0.1.6
+      - neteye-operator.0.1.7
+      - neteye-operator.0.1.8
+      - neteye-operator.0.1.9
+      - neteye-operator.0.1.10
   - name: neteye-operator.0.1.13
     replaces: neteye-operator.0.1.12
+    skips:
+      - neteye-operator.0.1.6
+      - neteye-operator.0.1.7
+      - neteye-operator.0.1.8
+      - neteye-operator.0.1.9
+      - neteye-operator.0.1.10
+      - neteye-operator.0.1.11
   - name: neteye-operator.0.1.14
     replaces: neteye-operator.0.1.13
+    skips:
+      - neteye-operator.0.1.6
+      - neteye-operator.0.1.7
+      - neteye-operator.0.1.8
+      - neteye-operator.0.1.9
+      - neteye-operator.0.1.10
+      - neteye-operator.0.1.11
+      - neteye-operator.0.1.12
