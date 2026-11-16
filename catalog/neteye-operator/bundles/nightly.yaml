@@ -732,3 +732,18 @@ properties:
     value:
       packageName: neteye-operator
       version: 0.2.10-nightly-15f3b94f3954
+---
+schema: olm.bundle
+name: neteye-operator.0.2.10-nightly-2f6bba749b43
+package: neteye-operator
+image: ghcr.io/neteye-platform/neteye-operator-bundle:0.2.10-nightly-2f6bba749b43
+properties:
+  - type: olm.gvk
+    value:
+      group: operators.coreos.com
+      kind: ClusterServiceVersion
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neteye-operator
+      version: 0.2.10-nightly-2f6bba749b43
