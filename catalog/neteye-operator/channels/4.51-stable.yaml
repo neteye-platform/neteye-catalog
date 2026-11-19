@@ -104,3 +104,18 @@ entries:
       - neteye-operator.0.2.8
       - neteye-operator.0.2.9
       - neteye-operator.0.2.10
+  - name: neteye-operator.0.3.2
+    replaces: neteye-operator.0.3.1
+    skips:
+      - neteye-operator.0.2.0
+      - neteye-operator.0.2.1
+      - neteye-operator.0.2.2
+      - neteye-operator.0.2.3
+      - neteye-operator.0.2.4
+      - neteye-operator.0.2.5
+      - neteye-operator.0.2.6
+      - neteye-operator.0.2.7
+      - neteye-operator.0.2.8
+      - neteye-operator.0.2.9
+      - neteye-operator.0.2.10
+      - neteye-operator.0.3.0
