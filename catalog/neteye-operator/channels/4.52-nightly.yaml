@@ -1,0 +1,5 @@
+schema: olm.channel
+package: neteye-operator
+name: 4.52-nightly
+entries:
+  - name: neteye-operator.0.4.0-nightly-a4cdda47c5af
