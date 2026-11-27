@@ -1,0 +1,5 @@
+schema: olm.channel
+package: neteye-operator
+name: 4.52-stable
+entries:
+  - name: neteye-operator.0.5.0
