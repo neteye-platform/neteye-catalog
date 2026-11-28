@@ -3,3 +3,7 @@ package: neteye-operator
 name: 4.52-nightly
 entries:
   - name: neteye-operator.0.4.0-nightly-a4cdda47c5af
+  - name: neteye-operator.0.5.0-nightly-2efda89c656e
+    replaces: neteye-operator.0.4.0-nightly-a4cdda47c5af
+    skips:
+      - neteye-operator.0.4.0-nightly-cbaa5ff61b9d
